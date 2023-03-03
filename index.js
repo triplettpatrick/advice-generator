@@ -5,6 +5,11 @@ const endpoint = "https://api.adviceslip.com/advice";
 const advice = document.getElementById("advice");
 const button = document.querySelector("a");
 
+const card = document.querySelector(".card-container");
+const divider = document.querySelector(".divider");
+const block = document.querySelector(".block");
+const marks = document.querySelector(".marks");
+
 function getAdvice() {
     return fetch(endpoint)
       .then(response => response.json())
@@ -37,6 +42,8 @@ const quote = button.addEventListener("click", function() {
     })
 
 });
+
+
 
 
 
