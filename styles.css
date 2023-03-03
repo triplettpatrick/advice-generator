@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 12px;
+    font-family: "Manrope", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(9, 6, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card Container  */
+
+div.card-container {
+    position: relative;
+    height: 300px;
+    width: 500px;
+    background: rgb(31, 54, 79);
+    border-radius: 20px;
+    box-shadow:  20px 12px 20px 0px #000;
+     /* rgb(15, 23, 31); */
+    /* border: 2px solid rgb(31, 54, 79); */
+}
+
+div.margin-container {
+    /* position: relative; */
+    margin: 0 75px;
+}
+
+div.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+div.content > p#article {
+    color: #78f394;
+    font-size: 1.5em;
+    margin-bottom: 50px;
+    padding-top: 35px;
+}
+
+
+
+div.content h1 {
+    color: hsl(193, 38%, 86%);
+    font-size: 1.6em;
+    text-align: center;
+    /* margin-bottom: 45px; */
+}
+
+div.divider {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 75%;
+    border: 0.05px solid hsl(193, 38%, 86%);
+    width: 70%;
+    padding: 0 75px;
+}
+
+div.block {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(31, 54, 79);
+    border: 2px solid rgb(31, 54, 79);
+    height: 50px;
+    width: 50px;
+}
+
+div.marks {
+    background:hsl(193, 38%, 86%);
+    margin: 0 4px;
+    border-radius: 40px;
+    height: 15px;
+    width: 5px;
+}
+
+/* Button  */
+
+div.circle {
+    position: absolute;
+    bottom: -30px;
+    height: 60px;
+    width: 60px;
+    border-radius: 28px;
+    background-color: #78f394;
+    box-shadow: 0 0 35px 8px #78f394;
+}
+
+i.dice {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    z-index: 10;
+}
+
+a {
+    color: rgb(9, 6, 35);
+}
