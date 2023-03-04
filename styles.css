@@ -25,7 +25,7 @@ body {
 div.card-container {
     position: relative;
     height: 300px;
-    max-width: 500px;
+    width: 500px;
     background: rgb(31, 54, 79);
     border-radius: 20px;
     box-shadow:  20px 12px 20px 0px #000;
@@ -119,3 +119,4 @@ i.dice {
 a {
     color: rgb(9, 6, 35);
 }
+
