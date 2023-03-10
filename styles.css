@@ -1,21 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
 
-* {
-    margin: 0;
+/* targets all of the elements in the html document  */
+* { 
+    margin: 0; 
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Add styles that the entire HTML document will follow  */
 html {
     font-size: 12px;
     font-family: "Manrope", sans-serif;
 }
 
 body {
-    height: 100vh;
-    width: 100%;
+    height: 100vh; /*height of the document is 100% of the view port*/
+    width: 100%; /*since body element, takes up 100% of the viewport, but means 100% of parent element*/
     background-color: rgb(9, 6, 35);
-    display: flex;
+    display: flex; /*allows child items to be able to be manipulated easier*/
     justify-content: center;
     align-items: center;
 }
@@ -23,14 +25,12 @@ body {
 /* Card Container  */
 
 div.card-container {
-    position: relative;
+    position: relative; /*element positioned relative to original position in document flow*/
     height: 300px;
     width: 500px;
     background: rgb(31, 54, 79);
     border-radius: 20px;
     box-shadow:  20px 12px 20px 0px #000;
-     /* rgb(15, 23, 31); */
-    /* border: 2px solid rgb(31, 54, 79); */
 }
 
 div.margin-container {
